@@ -24,7 +24,7 @@ const UserForm = ({ errors, touched, values, status }) => {
                     <p className='errorMessage'>{errors.name}</p>
                 )}
                 <Field type="password" name="password" placeholder="Password" />
-                <button type="submit">Submit Info</button>
+                <button data-testid='submitButton' type="submit">Submit Info</button>
             </Form>
             {
                 data.map((data, i) => {
