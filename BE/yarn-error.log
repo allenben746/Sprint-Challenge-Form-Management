@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /Users/BenAllen/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/BenAllen/.yarn/bin:/Users/BenAllen/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/BenAllen/.yarn/bin:/Users/BenAllen/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:183:27)
+
+npm manifest: 
+  {
+    "name": "forms-sprint-challenge-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "helmet": "^3.18.0",
+      "jsonwebtoken": "^8.5.1",
+      "knex": "^0.19.0",
+      "morgan": "^1.9.1",
+      "sqlite3": "^4.0.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
